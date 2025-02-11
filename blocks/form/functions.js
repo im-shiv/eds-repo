@@ -12,7 +12,7 @@ function getFullName(firstname, lastname) {
 /**
  * Multiply by 5
  * @name getNewValue Multiply by 5
- * @param {string} number in Numberformat
+ * @param {*} number
  * @return {integer}
  */
 function getNewValue(number) {
