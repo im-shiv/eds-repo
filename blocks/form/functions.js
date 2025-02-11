@@ -10,6 +10,17 @@ function getFullName(firstname, lastname) {
 }
 
 /**
+ * Multiply by 5
+ * @name getNewValue Multiply by 5
+ * @param {string} number in Numberformat
+ * @return {integer}
+ */
+function getNewValue(number) {
+  var newn = number*5;
+  return newn;
+}
+
+/**
  * Calculate the number of days between two dates.
  * @param {*} endDate
  * @param {*} startDate
@@ -29,4 +40,4 @@ function days(endDate, startDate) {
 }
 
 // eslint-disable-next-line import/prefer-default-export
-export { getFullName, days };
+export { getFullName, getNewValue, days };
